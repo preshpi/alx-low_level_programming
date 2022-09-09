@@ -24,5 +24,6 @@ if (c + d != 18)
 }c++;
 }d++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
+}
