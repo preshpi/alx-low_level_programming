@@ -9,7 +9,7 @@
 int main(void)
 {
 int p, q;
-for (p = 0; <= 98; p++)
+for (p = 0; p <= 98; p++)
 {
 	putchar((p / 10) + '0');
 	putchar((p % 10) + '0');
@@ -21,7 +21,6 @@ for (p = 0; <= 98; p++)
 		putchar(',');
 		putchar(' ');
 	}
-}
 }
 putchar('\n');
 return (0);
