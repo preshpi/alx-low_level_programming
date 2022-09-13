@@ -1,13 +1,11 @@
 #include "main.h"
 /**
- * add - print integers 
- *
- * @a: numner being added
- * @b: number being added
- *
+ * add - Add two integers
+ * @x: to test
+ * @y: to test
  * Return: 0
  */
-int add(int a, int b)
+int add(int x, int y)
 {
-	return (a + b);
+	return (x + y);
 }
