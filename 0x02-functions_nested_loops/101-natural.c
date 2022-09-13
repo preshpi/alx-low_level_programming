@@ -3,7 +3,7 @@
  * main - print natural numbers
  * Description: print multiples of 3 or 5
  *
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
