@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * int _islower(int c) - Print a function for lowercase
+ * _islower - Print a function for lowercase
+ *
+ * Description: int _islower(int c)
  *
  * Return: 0
  */
