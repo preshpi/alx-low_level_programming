@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 /**
- * main - print all natural numbers below 1024 excluded
+ *
+ * main - print natural numbers
  *
  * Description: print multiples of 3 or 5
  *
