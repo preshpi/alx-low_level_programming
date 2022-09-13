@@ -2,13 +2,15 @@
 /**
  * main - print the alphabet in lowercase
  *
- *Return: 0
+ * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char lower;
+
 	for (lower = 'a'; lower <= 'z'; lower++)
- 		_putchar(lower);
-	 	_putchar('\n');
-return (0);	
+	{
+		_putchar(lower);
+	}
+_putchar('\n');
 }
