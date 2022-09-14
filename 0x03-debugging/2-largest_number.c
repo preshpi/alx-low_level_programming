@@ -7,7 +7,7 @@
  * @c: third integer
  * Return: larget number
  */
- int largest_number(int a, int b, int c)
+int largest_number(int a, int b, int c)
 {
 	int largest;
 
@@ -15,7 +15,7 @@
 	{
 		if (b > c)
 			largest = a;
-		else if (a > c )
+		else if (a > c)
 			largest = a;
 		else
 			largest = c;
