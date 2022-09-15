@@ -1,7 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+/**
+*main - Header file for prototypes
+*void - prototypes (void)
+*int - prototypes (int)
+*/
 
 int _isupper(int c);
 int _isdigit(int c);
