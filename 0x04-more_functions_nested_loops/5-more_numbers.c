@@ -16,7 +16,7 @@ void more_numbers(void)
 	{
 		for (number = 0; number <= 14; number++)
 		{
-			tens = number /10;
+			tens = number / 10;
 			units = number % 10;
 			if (number > 9)
 				_putchar(tens + '0');
