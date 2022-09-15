@@ -17,7 +17,7 @@ void print_triangle(int size)
 	{
 		for (row = 1; row <= size; row++)
 		{
-			for (spaces = size - row; spaces >= 1; spaces--)
+			for (space = size - row; space >= 1; space--)
 			{
 				_putchar(' ');
 			}
@@ -25,7 +25,7 @@ void print_triangle(int size)
 			{
 				_putchar('#');
 			}
-			_putchar('n');
+			_putchar('\n');
 		}
 	}
 }
