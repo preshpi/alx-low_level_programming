@@ -2,7 +2,8 @@
 
 /**
  * print_numbers - entry point
- * Description: prints the numbers with _putchar
+ *
+ *Description: prints the numbers with _putchar
  *
  * Return: void
  */
@@ -14,5 +15,5 @@ void print_numbers(void)
 	{
 		_putchar(n);
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
