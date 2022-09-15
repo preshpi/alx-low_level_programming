@@ -3,17 +3,18 @@
 /**
  * print_numbers - entry point
  *
- *Description: prints the numbers with _putchar
+ * Description: prints the numbers with _putchar
  *
  * Return: void
  */
 
 void print_numbers(void)
 {
-	int n;
-	for (n = '0'; n <= '9'; n++)
+	int x;
+
+	for (x = '0'; x <= '9'; x++)
 	{
-		_putchar(n);
+		_putchar(x);
 	}
 	_putchar('\n');
 }
