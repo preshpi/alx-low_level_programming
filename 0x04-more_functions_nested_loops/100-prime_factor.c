@@ -10,7 +10,7 @@ int main(void)
 
 	number = 612852475143;
 
-	if (isprime(number) == 1)
+	if (isPrime(number) == 1)
 	{
 		printf("%ld\n", number);
 	}
@@ -48,7 +48,7 @@ int isPrime(long int n)
 		}
 		return (1);
 	}
-} 
+}
 /**
  * biggestFactor - returns the biggest prime number
  * @a: number to check
@@ -78,5 +78,5 @@ long int biggestFactor(long int a)
 			}
 		}
 	}
-	return (factor)
+	return (factor);
 }
