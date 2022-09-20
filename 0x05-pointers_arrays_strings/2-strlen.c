@@ -1,15 +1,15 @@
 #include "main.h"
 /*
- * _strlen - print the length of the function
- * @s: The letter being tested
- * Return: 0
+ * _strlen - returns the length of a string
+ * s: string
+ * Return: returns length as integer;
  */
 int _strlen(char *s)
 {
 	int len = 0;
 
 	while (*(s  + len) != '\0')
-		len ++;
+		len++;
 
 	return (len);
 }
